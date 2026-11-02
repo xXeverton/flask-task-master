@@ -1,0 +1,14 @@
+# Ambiente virtual
+venv/
+.venv/
+
+# Cache do Python
+__pycache__/
+*.pyc
+
+# Banco de dados local (o SQLite é criado pelo db.create_all())
+instance/
+*.db
+
+# Pacote gerado para o deploy
+*.zip
